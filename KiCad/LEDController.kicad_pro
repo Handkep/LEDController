@@ -508,16 +508,28 @@
       "+24V": [
         "Power"
       ],
+      "B_out": [
+        "Power"
+      ],
       "Data": [
         "Power"
       ],
       "GND": [
         "Power"
       ],
+      "G_out": [
+        "Power"
+      ],
       "Net-(J6-Pin_1)": [
         "Power"
       ],
       "Net-(J6-Pin_2)": [
+        "Power"
+      ],
+      "R_out": [
+        "Power"
+      ],
+      "W_out": [
         "Power"
       ]
     },
