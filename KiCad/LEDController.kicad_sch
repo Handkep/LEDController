@@ -4755,6 +4755,10 @@
 		(uuid "f7b3f1ad-fdbf-4ef1-9294-4bb57fb97a90")
 	)
 	(no_connect
+		(at 34.29 125.73)
+		(uuid "02dc81a8-1c01-4708-900d-b69b3c9205c1")
+	)
+	(no_connect
 		(at 185.42 88.9)
 		(uuid "0b294585-baad-47ea-b931-18fc8499a94c")
 	)
@@ -4769,6 +4773,10 @@
 	(no_connect
 		(at 185.42 119.38)
 		(uuid "d1e270c3-0ef1-4ae2-845a-f1719c7c736d")
+	)
+	(no_connect
+		(at 34.29 123.19)
+		(uuid "d451491c-8adf-4d18-860b-b01535ed2f52")
 	)
 	(no_connect
 		(at 185.42 96.52)
@@ -7589,6 +7597,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8110,6 +8119,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8750,6 +8760,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11300,6 +11311,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
