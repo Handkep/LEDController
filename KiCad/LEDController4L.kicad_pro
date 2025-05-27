@@ -469,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LEDController.kicad_pro",
+    "filename": "LEDController4L.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -493,20 +493,11 @@
         "wire_width": 0
       },
       {
-        "name": "+3.3V",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0
-      },
-      {
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.6
       }
     ],
     "meta": {
@@ -548,7 +539,7 @@
         "pattern": "+24V"
       },
       {
-        "netclass": "+3.3V",
+        "netclass": "Power",
         "pattern": "+3.3V"
       }
     ]
