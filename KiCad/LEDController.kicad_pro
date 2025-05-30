@@ -96,11 +96,27 @@
           ""
         ],
         [
-          "starved_thermal|104589000|67498000|f9df14c5-a76e-40ca-b979-4661121a7508|2d385846-8e9f-4492-b8c2-12092790800b|F.Cu",
+          "solder_mask_bridge|92000000|61573300|07ec267c-b8ca-4d3d-a350-64d97382f02b|44ab7cb4-0ab4-4b3a-81bc-bf92a3dd18bc",
           ""
         ],
         [
-          "starved_thermal|105328500|70546000|f9df14c5-a76e-40ca-b979-4661121a7508|093a6ef8-9cce-4805-9edd-4cb00d5f3441|F.Cu",
+          "solder_mask_bridge|92000000|66373300|39a397e0-a744-4c0f-864c-f91e507bdc84|4c7e1bc5-fffd-4193-b2fe-f9cde4281945",
+          ""
+        ],
+        [
+          "starved_thermal|92425000|60923300|f9df14c5-a76e-40ca-b979-4661121a7508|748f8799-3dc8-4e32-b51f-b6e0d3e5a2db|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|92425000|60923300|f9df14c5-a76e-40ca-b979-4661121a7508|c4eafd2f-11a3-4f30-9a3a-0592ab9bd804|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|92425000|67323300|f9df14c5-a76e-40ca-b979-4661121a7508|1fe5f80b-70b2-4524-9532-48f0fd0e3293|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|92425000|67323300|f9df14c5-a76e-40ca-b979-4661121a7508|c8a0ca33-22c2-4b4e-a028-ccc02b851e05|F.Cu",
           ""
         ]
       ],
@@ -572,6 +588,9 @@
         "Power"
       ],
       "G_out": [
+        "Power"
+      ],
+      "Net-(J5-Pin_1)": [
         "Power"
       ],
       "Net-(J6-Pin_1)": [
