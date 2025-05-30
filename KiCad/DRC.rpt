@@ -1,0 +1,58 @@
+** Drc report for LEDController.kicad_pcb **
+** Created on 2025-05-30T20:46:41+0200 **
+
+** Found 12 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(118.9860 mm, 65.0240 mm): Footprint U2
+    @(132.0000 mm, 52.0000 mm): Footprint H2
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(90.9150 mm, 85.9967 mm): Footprint J1
+    @(97.2950 mm, 94.4065 mm): Footprint J7
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(112.5350 mm, 94.4065 mm): Footprint J8
+    @(97.2950 mm, 94.4065 mm): Footprint J7
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(82.7140 mm, 47.2220 mm): Zone [GND] on F.Cu and B.Cu
+    @(104.5890 mm, 67.4980 mm): Pad 2 [GND] of C12 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(82.7140 mm, 47.2220 mm): Zone [GND] on F.Cu and B.Cu
+    @(105.3285 mm, 70.5460 mm): Pad 2 [GND] of R14 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(82.7140 mm, 47.2220 mm): Zone [GND] on F.Cu and B.Cu
+    @(119.9980 mm, 80.6850 mm): PTH pad 3 [GND] of J6
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(82.7140 mm, 47.2220 mm): Zone [GND] on F.Cu and B.Cu
+    @(92.4250 mm, 60.9233 mm): Pad A1 [GND] of J5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(82.7140 mm, 47.2220 mm): Zone [GND] on F.Cu and B.Cu
+    @(92.4250 mm, 67.3233 mm): Pad A12 [GND] of J5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(82.7140 mm, 47.2220 mm): Zone [GND] on F.Cu and B.Cu
+    @(92.4250 mm, 67.3233 mm): Pad B1 [GND] of J5 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(82.7140 mm, 47.2220 mm): Zone [GND] on F.Cu and B.Cu
+    @(92.4250 mm, 60.9233 mm): Pad B12 [GND] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(92.4250 mm, 61.7233 mm): Pad A4 [unconnected-(J5-VBUS-PadA4)] of J5 on F.Cu
+    @(92.4250 mm, 61.7233 mm): Pad B9 [unconnected-(J5-VBUS-PadA4)_2] of J5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(92.4250 mm, 66.5233 mm): Pad A9 [unconnected-(J5-VBUS-PadA4)_1] of J5 on F.Cu
+    @(92.4250 mm, 66.5233 mm): Pad B4 [unconnected-(J5-VBUS-PadA4)_3] of J5 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
