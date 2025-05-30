@@ -11171,7 +11171,7 @@
 				)
 			)
 		)
-		(property "Value" "ENABLE"
+		(property "Value" "EN"
 			(at 264.16 19.05 0)
 			(effects
 				(font
