@@ -580,6 +580,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -795,7 +796,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -850,6 +851,10 @@
     [
       "4e4f96d2-86d5-4a03-8de9-74109a01887a",
       "Root"
+    ],
+    [
+      "5b3c476c-7c3e-4e06-9bee-936b86d276fc",
+      "AC_Power"
     ]
   ],
   "text_variables": {}

@@ -4728,7 +4728,7 @@
 		(uuid "ce81801d-851f-4c6c-b56a-f258c282759d")
 	)
 	(junction
-		(at 199.39 80.01)
+		(at 167.64 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf6ce0f2-61f9-44a5-95c5-dc193ca7fc5c")
@@ -4776,7 +4776,7 @@
 		(uuid "eda18604-8456-4fa7-b72a-ce5dd534f86b")
 	)
 	(junction
-		(at 200.66 77.47)
+		(at 168.91 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f262f7da-84df-4c7f-bda8-15d0b0bf402c")
@@ -4792,11 +4792,11 @@
 		(uuid "02dc81a8-1c01-4708-900d-b69b3c9205c1")
 	)
 	(no_connect
-		(at 199.39 62.23)
+		(at 167.64 26.67)
 		(uuid "0b294585-baad-47ea-b931-18fc8499a94c")
 	)
 	(no_connect
-		(at 199.39 90.17)
+		(at 167.64 54.61)
 		(uuid "12e0b47d-81f8-4619-a478-044213bed376")
 	)
 	(no_connect
@@ -4812,11 +4812,11 @@
 		(uuid "9c16da6c-6f88-47cc-8b4c-31d2b4f40a5c")
 	)
 	(no_connect
-		(at 199.39 67.31)
+		(at 167.64 31.75)
 		(uuid "c975e8f2-c642-4169-bf0d-233d6f9e5b6a")
 	)
 	(no_connect
-		(at 199.39 92.71)
+		(at 167.64 57.15)
 		(uuid "d1e270c3-0ef1-4ae2-845a-f1719c7c736d")
 	)
 	(no_connect
@@ -4824,11 +4824,11 @@
 		(uuid "d451491c-8adf-4d18-860b-b01535ed2f52")
 	)
 	(no_connect
-		(at 199.39 69.85)
+		(at 167.64 34.29)
 		(uuid "e1e68a11-71e7-4340-95ca-8c91aa3572d7")
 	)
 	(no_connect
-		(at 176.53 100.33)
+		(at 144.78 64.77)
 		(uuid "f5c25cab-a81b-43fe-aec2-8f75ce03a6ff")
 	)
 	(wire
@@ -4983,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 77.47) (xy 200.66 77.47)
+			(xy 167.64 41.91) (xy 168.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 80.01) (xy 201.93 80.01)
+			(xy 167.64 44.45) (xy 170.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5093,7 +5093,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 80.01) (xy 199.39 82.55)
+			(xy 167.64 44.45) (xy 167.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5113,7 +5113,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 74.93) (xy 199.39 74.93)
+			(xy 168.91 39.37) (xy 167.64 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5443,7 +5443,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 74.93) (xy 200.66 77.47)
+			(xy 168.91 39.37) (xy 168.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5493,7 +5493,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 77.47) (xy 201.93 77.47)
+			(xy 168.91 41.91) (xy 170.18 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5951,7 +5951,7 @@
 	)
 	(global_label "USB.D+"
 		(shape input)
-		(at 201.93 80.01 0)
+		(at 170.18 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5961,7 +5961,7 @@
 		)
 		(uuid "3243f395-f486-4054-91c3-373bf46ca850")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.1724 80.01 0)
+			(at 180.4224 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6831,7 @@
 	)
 	(global_label "USB.D-"
 		(shape input)
-		(at 201.93 77.47 0)
+		(at 170.18 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6841,7 +6841,7 @@
 		)
 		(uuid "cb68cca4-57b1-434f-bf01-7bd5955747d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.1724 77.47 0)
+			(at 180.4224 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9476,7 +9476,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 184.15 77.47 0)
+		(at 152.4 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9485,7 +9485,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ad567ff-fddb-4552-857b-6b9e23041e8b")
 		(property "Reference" "J6"
-			(at 184.15 54.61 0)
+			(at 152.4 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9493,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 184.15 57.15 0)
+			(at 152.4 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9501,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 187.96 77.47 0)
+			(at 156.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9510,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2505061156_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186.pdf"
-			(at 187.96 77.47 0)
+			(at 156.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +9519,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 184.15 77.47 0)
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9528,7 @@
 			)
 		)
 		(property "LCSC" "C2765186"
-			(at 184.15 77.47 0)
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 100.33 0)
+		(at 152.4 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10916,7 +10916,7 @@
 		(dnp no)
 		(uuid "aa94813a-ad22-49f0-bbc1-d02eb49b4b3e")
 		(property "Reference" "#PWR016"
-			(at 184.15 106.68 0)
+			(at 152.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10925,7 +10925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 103.886 0)
+			(at 152.4 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +10933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 100.33 0)
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,7 +10942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 100.33 0)
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 100.33 0)
+			(at 152.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,6 +12982,48 @@
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a"
 					(reference "J4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 86.36)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b3c476c-7c3e-4e06-9bee-936b86d276fc")
+		(property "Sheetname" "AC_Power"
+			(at 233.68 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 233.68 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a"
+					(page "2")
 				)
 			)
 		)
