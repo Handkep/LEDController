@@ -60,3 +60,11 @@ Nicht freigegeben. Nur als Idee im Projekt vorhanden.
 - Gehäuse und Zugentlastung.
 - Zulassung / Normen.
 - Alternative: externes zertifiziertes Netzteil.
+
+
+
+
+Mögliche terminal blocks:
+
+C8377 + C71371
+

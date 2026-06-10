@@ -2707,6 +2707,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "wohl eher C27643\n-> 8 ch. level shifter"
+		(exclude_from_sim no)
+		(at 41.91 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d578bb8c-c6fc-46c3-9007-a19f958aab16")
+	)
+	(text "Screw terminal: C8377 + C71371"
+		(exclude_from_sim no)
+		(at 221.234 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0d74f5a-469b-42cc-aa78-c1ed60ee0d53")
+	)
 	(junction
 		(at 160.02 100.33)
 		(diameter 0)
