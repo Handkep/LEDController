@@ -68,3 +68,4 @@ Mögliche terminal blocks:
 
 C8377 + C71371
 
+Fuse holder: C19727305
