@@ -1411,6 +1411,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "min. 500mA power consumption"
+		(exclude_from_sim no)
+		(at 99.0357 73.5817 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d19f55e0-9361-434f-8695-203b66d81e5f")
+	)
 	(junction
 		(at 87.63 52.07)
 		(diameter 0)

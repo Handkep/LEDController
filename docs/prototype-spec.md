@@ -28,7 +28,7 @@ Konkrete Anforderungen:
 - Bulk-Kapazität an 24V-Eingang und LED-Ausgängen.
 - 100nF und 10µF lokal an MCU, Buck-Regler und Level-Shiftern.
 - `+5V`-Strategie final klären: externe Einspeisung, interne Erzeugung oder nur Referenz/Weiterleitung.
-- min. 4 Tür sensoren 
+- min. 4 Tür sensoren (nc)
 
 ## Digitale LED-Ausgänge
 
@@ -43,6 +43,8 @@ Anforderungen:
 - Ausgangspegel: 5V-kompatibel.
 - Serienwiderstand: 100Ω je Datenleitung.
 - pro Kanal 1 Datenleitung + GND + 24V
+- Master Relais zum Abschalten der LED-Spannung zum Stromsparen
+
 
 ts mit Beschriftung/Silkscreen abgleichen.
 
