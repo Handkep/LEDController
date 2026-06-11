@@ -66,15 +66,7 @@
           ""
         ],
         [
-          "courtyards_overlap|128781000|53217252|07dd6b67-cb8d-4635-821a-7fa0a2663512|87158a7c-f3c5-4015-95c5-d373472c9704",
-          ""
-        ],
-        [
           "courtyards_overlap|128791000|76045000|8f69daba-37cf-4100-a653-0a5c025b4b62|cbd2bb07-68fc-4c45-bd28-8a2fe9eddfde",
-          ""
-        ],
-        [
-          "courtyards_overlap|94810000|88701500|558b881e-c27e-4802-bd53-4674372d1b12|b098a412-b3c7-41db-9684-6adc8be8a4f0",
           ""
         ],
         [
@@ -111,22 +103,6 @@
         ],
         [
           "silk_edge_clearance|125355000|99000000|64fe9343-d84f-458e-8f3a-7205ee105d6d|d0f224a0-00ca-440f-9f7c-3d1f1ede2d35",
-          ""
-        ],
-        [
-          "silk_edge_clearance|132000000|49000000|0fb1ecde-604e-474d-926b-f17058873d8c|32c70609-9ccc-4802-be9b-776fc58bf669",
-          ""
-        ],
-        [
-          "silk_edge_clearance|132000000|49000000|0fb1ecde-604e-474d-926b-f17058873d8c|75a929df-f698-4f1a-b9d7-d7a5f7062c28",
-          ""
-        ],
-        [
-          "silk_edge_clearance|135000000|52000000|0fb1ecde-604e-474d-926b-f17058873d8c|6dc04657-1534-4271-89a8-2e416dd45658",
-          ""
-        ],
-        [
-          "silk_edge_clearance|135000000|52000000|0fb1ecde-604e-474d-926b-f17058873d8c|b3f19bb8-b851-4198-a694-a929b503bc9c",
           ""
         ],
         [
@@ -854,7 +830,7 @@
         "uuid": "4e4f96d2-86d5-4a03-8de9-74109a01887a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "F1,U7-8,R35-47,#PWR74-83,C21",
     "variants": []
   },
   "sheets": [
