@@ -118,14 +118,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|113164600|103505200|02de3a6f-5fd7-44a4-a8cf-85dc8ba51cab|28cfb446-6926-494c-b25d-a06a53aa9565",
-          ""
-        ],
-        [
-          "silk_edge_clearance|113164600|103505200|02de3a6f-5fd7-44a4-a8cf-85dc8ba51cab|fec916fe-262a-4c25-9cac-efd19af2ed05",
-          ""
-        ],
-        [
           "silk_edge_clearance|119799600|103505200|64fe9343-d84f-458e-8f3a-7205ee105d6d|e039edf6-e560-47cb-b8dd-6df402d6db06",
           ""
         ],
@@ -139,30 +131,6 @@
         ],
         [
           "solder_mask_bridge|92000000|66373300|39a397e0-a744-4c0f-864c-f91e507bdc84|4c7e1bc5-fffd-4193-b2fe-f9cde4281945",
-          ""
-        ],
-        [
-          "starved_thermal|101092000|56536500|f9df14c5-a76e-40ca-b979-4661121a7508|fbe80bac-afc7-4977-9549-d3fc967eca3f|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|101741000|74295000|f9df14c5-a76e-40ca-b979-4661121a7508|d7825022-45a4-48aa-863d-a8c3f276db13|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|92425000|60923300|f9df14c5-a76e-40ca-b979-4661121a7508|748f8799-3dc8-4e32-b51f-b6e0d3e5a2db|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|92425000|60923300|f9df14c5-a76e-40ca-b979-4661121a7508|c4eafd2f-11a3-4f30-9a3a-0592ab9bd804|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|92425000|67323300|f9df14c5-a76e-40ca-b979-4661121a7508|1fe5f80b-70b2-4524-9532-48f0fd0e3293|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|92425000|67323300|f9df14c5-a76e-40ca-b979-4661121a7508|c8a0ca33-22c2-4b4e-a028-ccc02b851e05|F.Cu",
           ""
         ]
       ],
@@ -838,7 +806,7 @@
         "uuid": "4e4f96d2-86d5-4a03-8de9-74109a01887a"
       }
     ],
-    "used_designators": "R13-14,D3,C22-25,#PWR31,#PWR42,#PWR50,#PWR52,#PWR54,#PWR56,#PWR58,#PWR60,#PWR62,#PWR64,#PWR66,#PWR68,#PWR70,#PWR72,#PWR77-78,#PWR84-87",
+    "used_designators": "J4-5,J11,#PWR8-10,#PWR13-14,#PWR32",
     "variants": []
   },
   "sheets": [
