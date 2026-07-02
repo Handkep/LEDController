@@ -3773,7 +3773,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Idee:\nSeperate connector für 12-24V input und 5V input.\nBeim 5V input wird der 5V Buck converter gebypassed"
+	(text "Jumper für power over usb, zusätzlich eine ideale Diode"
 		(exclude_from_sim no)
 		(at 144.272 109.22 0)
 		(effects
@@ -3846,16 +3846,6 @@
 	(no_connect
 		(at 204.47 154.94)
 		(uuid "ac963ae8-5d20-4ae1-8058-521f3f8130c8")
-	)
-	(wire
-		(pts
-			(xy 199.39 80.01) (xy 199.39 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f6a61e-c333-4c58-93b6-9fa9271f7576")
 	)
 	(wire
 		(pts
@@ -3996,16 +3986,6 @@
 			(type default)
 		)
 		(uuid "31efead7-0efe-41f2-8db0-21ad38a8c10b")
-	)
-	(wire
-		(pts
-			(xy 237.49 80.01) (xy 237.49 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "356e3638-99cd-4efe-aeee-596e2be14472")
 	)
 	(wire
 		(pts
@@ -4259,16 +4239,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 72.39) (xy 237.49 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8960fb3c-cb8e-4828-b402-42ff78d7bd94")
-	)
-	(wire
-		(pts
 			(xy 233.68 25.4) (xy 237.49 25.4)
 		)
 		(stroke
@@ -4489,16 +4459,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 72.39) (xy 199.39 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b159dc-e2aa-45a8-b1d7-aaff1be74462")
-	)
-	(wire
-		(pts
 			(xy 123.19 54.61) (xy 123.19 53.34)
 		)
 		(stroke
@@ -4519,16 +4479,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 76.2) (xy 237.49 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fadeaa2c-3e28-4ed7-b8b6-a321ca2b71b5")
-	)
-	(wire
-		(pts
 			(xy 204.47 129.54) (xy 227.33 129.54)
 		)
 		(stroke
@@ -4536,16 +4486,6 @@
 			(type default)
 		)
 		(uuid "fae2ae7b-88f8-4d58-bd11-5a403d5c639a")
-	)
-	(wire
-		(pts
-			(xy 195.58 76.2) (xy 199.39 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe322e8c-b208-43f4-9ee4-778be3f74695")
 	)
 	(wire
 		(pts
@@ -4581,9 +4521,9 @@
 			)
 		)
 	)
-	(global_label "Data10"
+	(global_label "Data6"
 		(shape input)
-		(at 34.29 128.27 180)
+		(at 34.29 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4591,9 +4531,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0345cbb4-41b1-4924-9b85-8fe75950496d")
+		(uuid "04392feb-03ff-4b17-bd08-b789f85c73e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 128.27 0)
+			(at 25.8016 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,6 +4542,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "DataOut8"
+		(shape input)
+		(at 59.69 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "094ce56b-d651-4095-91d9-e170711aeea0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3836 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DataOut4"
+		(shape input)
+		(at 59.69 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bf3a81f-f8ac-45a5-86eb-907beecc1d97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3836 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4618,30 +4606,6 @@
 		(uuid "0e776a6d-d59b-4914-afa2-8bfaf880ba10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.1157 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Data12"
-		(shape input)
-		(at 34.29 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ebe5d60-7ee2-437b-beb0-507fc6b43440")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,6 +4641,78 @@
 			)
 		)
 	)
+	(global_label "DataOut10"
+		(shape input)
+		(at 59.69 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1143de51-fd1a-4fb3-aa92-7b2702f486e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3836 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Data4"
+		(shape input)
+		(at 34.29 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14713639-59c2-4114-b8ed-f0e03145a35c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8016 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Data2"
+		(shape input)
+		(at 34.29 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a3004e0-380d-41bb-903d-706a092244a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8016 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "UART.RX"
 		(shape input)
 		(at 256.54 110.49 180)
@@ -4701,19 +4737,19 @@
 			)
 		)
 	)
-	(global_label "Data6"
+	(global_label "DataOut9"
 		(shape input)
-		(at 34.29 62.23 180)
+		(at 59.69 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "1db4351c-ad9d-422b-b491-2b47f0d9bc5e")
+		(uuid "1e32068a-024a-4f18-87f4-d6dbf48ea9ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 62.23 0)
+			(at 71.3836 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4757,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4749,33 +4785,9 @@
 			)
 		)
 	)
-	(global_label "DataOut2"
+	(global_label "Data7"
 		(shape input)
-		(at 59.69 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cc8763b-df6f-4093-b7c9-359d6172c4f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Data8"
-		(shape input)
-		(at 34.29 72.39 180)
+		(at 34.29 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4783,9 +4795,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3c5f84ff-9a21-40c0-a1af-c0ce7a423f29")
+		(uuid "38233f11-5b2c-4f75-a064-97a25c502870")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 72.39 0)
+			(at 25.8016 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,30 +4833,6 @@
 			)
 		)
 	)
-	(global_label "DataOut10"
-		(shape input)
-		(at 59.69 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e30a520-190a-4552-ac4d-3781ad6b504a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DataOut4"
 		(shape input)
 		(at 233.68 25.4 180)
@@ -4869,9 +4857,9 @@
 			)
 		)
 	)
-	(global_label "DataOut11"
+	(global_label "Data8"
 		(shape input)
-		(at 195.58 76.2 180)
+		(at 34.29 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4879,9 +4867,9 @@
 			)
 			(justify right)
 		)
-		(uuid "41ec6fae-362c-411b-a33e-faf6e57db116")
+		(uuid "48c4f1ee-0a56-4fcd-8633-dfc516edf59f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.8864 76.2 0)
+			(at 25.8016 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,9 +4953,33 @@
 			)
 		)
 	)
+	(global_label "DataOut5"
+		(shape input)
+		(at 59.69 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5495fb61-403e-4c9c-aa89-107f98d45703")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3836 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Data9"
 		(shape input)
-		(at 34.29 123.19 180)
+		(at 34.29 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4975,9 +4987,9 @@
 			)
 			(justify right)
 		)
-		(uuid "663dda9e-3719-46b5-af44-9b0f016bb33d")
+		(uuid "56ff749f-a98b-4426-ab55-f65187085aaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 123.19 0)
+			(at 25.8016 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,54 +5025,6 @@
 			)
 		)
 	)
-	(global_label "Data4"
-		(shape input)
-		(at 34.29 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71fd4c12-3e7b-41ac-a299-730f51c3a304")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DataOut6"
-		(shape input)
-		(at 59.69 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "749ed3bf-dc30-4fbe-b152-5e5235ef7592")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO.46"
 		(shape input)
 		(at 101.6 152.4 180)
@@ -5085,33 +5049,9 @@
 			)
 		)
 	)
-	(global_label "Data11"
+	(global_label "DataOut3"
 		(shape input)
-		(at 34.29 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "757efb63-7942-4b17-8c44-7cb32203a591")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DataOut9"
-		(shape input)
-		(at 59.69 123.19 0)
+		(at 59.69 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5119,33 +5059,9 @@
 			)
 			(justify left)
 		)
-		(uuid "75eeebf6-db0e-46b1-bb3c-9fb4fb530edd")
+		(uuid "79092059-8010-4017-bf18-de1a199d82c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DataOut4"
-		(shape input)
-		(at 59.69 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8418d5b1-95c4-4729-9b35-7795e4140f1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 52.07 0)
+			(at 71.3836 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5181,6 +5097,30 @@
 			)
 		)
 	)
+	(global_label "DataOut2"
+		(shape input)
+		(at 59.69 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8911d1d5-f4ba-499c-9fa2-10e59a0d6c1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3836 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB.D-"
 		(shape input)
 		(at 207.01 139.7 0)
@@ -5207,7 +5147,7 @@
 	)
 	(global_label "Data1"
 		(shape input)
-		(at 34.29 36.83 180)
+		(at 34.29 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5217,7 +5157,7 @@
 		)
 		(uuid "8ecee98d-73b4-4a57-8288-4c98c5654634")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 36.83 0)
+			(at 25.8016 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5226,6 +5166,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "DataOut7"
+		(shape input)
+		(at 59.69 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95747699-e6ab-48cf-ad59-f9285285b178")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.3836 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5277,19 +5241,19 @@
 			)
 		)
 	)
-	(global_label "DataOut12"
+	(global_label "DataOut1"
 		(shape input)
-		(at 233.68 76.2 180)
+		(at 59.69 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "a2be46f5-f244-44d0-9476-52fb058750a6")
+		(uuid "9fb00e84-7d75-4dc0-9c1b-3321ea93f194")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.9864 76.2 0)
+			(at 71.3836 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,7 +5261,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5325,33 +5289,9 @@
 			)
 		)
 	)
-	(global_label "Data7"
-		(shape input)
-		(at 34.29 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b16f0564-2b41-42cd-a689-cc6540aef8a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "Data3"
 		(shape input)
-		(at 34.29 46.99 180)
+		(at 34.29 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5359,57 +5299,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b4c93e74-04f8-466b-ba00-7f84a1e5e82e")
+		(uuid "bf1d1039-53ed-45b0-86c3-f8899f81bf0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DataOut3"
-		(shape input)
-		(at 59.69 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb25321e-3549-486a-a124-c78265a804f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Data2"
-		(shape input)
-		(at 34.29 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb314c98-1917-451a-a7b5-6cd74aba14a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 41.91 0)
+			(at 25.8016 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,54 +5361,6 @@
 			)
 		)
 	)
-	(global_label "DataOut8"
-		(shape input)
-		(at 59.69 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9851718-913a-4d84-b47f-8d8da82049de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DataOut5"
-		(shape input)
-		(at 59.69 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dca4bd6c-0bbd-4916-93b9-d73065aa88e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO.38"
 		(shape input)
 		(at 101.6 147.32 180)
@@ -5541,19 +5385,19 @@
 			)
 		)
 	)
-	(global_label "DataOut12"
+	(global_label "Data5"
 		(shape input)
-		(at 59.69 138.43 0)
+		(at 34.29 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e66a45b0-acfe-4159-896c-43110616a210")
+		(uuid "e045d338-7553-46f4-8412-894a76dbefc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 138.43 0)
+			(at 25.8016 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5561,13 +5405,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
-	(global_label "DataOut7"
+	(global_label "DataOut6"
 		(shape input)
-		(at 59.69 67.31 0)
+		(at 59.69 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5575,9 +5419,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e8a4b076-3f61-4da4-aeb4-1d7c0ef0ef14")
+		(uuid "e4b45716-6acf-4bec-adf8-70bfd36bd420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 67.31 0)
+			(at 71.3836 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5637,19 +5481,19 @@
 			)
 		)
 	)
-	(global_label "DataOut1"
+	(global_label "Data10"
 		(shape input)
-		(at 59.69 36.83 0)
+		(at 34.29 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f3af53f0-5787-4e45-97d1-45f57a85ac97")
+		(uuid "efa3dd26-b5e8-412a-979c-0b25c42f2a50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 36.83 0)
+			(at 25.8016 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5657,7 +5501,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5698,54 +5542,6 @@
 		(uuid "f985dedf-420d-428d-8d8e-8be1a38bfd6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 243.5763 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DataOut11"
-		(shape input)
-		(at 59.69 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd0112b5-730d-4829-9108-2a4cb5cb20b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3836 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Data5"
-		(shape input)
-		(at 34.29 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fef9a9a6-8e19-458c-a341-4eea9404e88c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8016 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,83 +5625,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "033cd86e-7f92-41bd-8359-6624581aa74b")
-		(property "Reference" "#PWR073"
-			(at 237.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a5e177b-764e-474d-88f9-089441c705fb")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6002,96 +5721,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "058e6fa4-5d7b-4bea-a756-ea1070f3030b")
-		(property "Reference" "R35"
-			(at 57.15 38.608 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 40.132 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6eea4303-7e24-4c49-b3f7-3574217aeb4b")
-		)
-		(pin "2"
-			(uuid "3d29ad2c-b52a-487b-b179-7bfefeedec75")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6246,102 +5875,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 242.57 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c293e5c-564d-443a-be4d-fd81d458e079")
-		(property "Reference" "J22"
-			(at 245.11 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED12"
-			(at 245.11 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONN-TH_3P-P5.08_WJ2EDGRC-5.08-3P"
-			(at 242.57 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 242.57 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C8377"
-			(at 242.57 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "95bc49f9-7961-4a44-ad6e-87cae983908d")
-		)
-		(pin "1"
-			(uuid "6269d4e7-42d6-4800-a84b-80e92aa1318c")
-		)
-		(pin "2"
-			(uuid "f4afa50d-b3b3-4b36-8629-c7582e9174d9")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -6604,96 +6137,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19b30ab9-ac06-4a0a-8583-9e74063aee8f")
-		(property "Reference" "R45"
-			(at 57.15 135.128 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 136.652 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d4e0a69-cfa7-4695-9b00-297163d2339a")
-		)
-		(pin "2"
-			(uuid "a7f7379d-ec36-4995-a425-71af78f53c30")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -7288,6 +6731,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3023d268-e15b-40fd-b920-77f2ea19961d")
+		(property "Reference" "R38"
+			(at 57.15 53.848 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 55.372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04d1b945-fede-4a15-a037-96a282537040")
+		)
+		(pin "2"
+			(uuid "c07746ec-91ac-40a5-b5c1-5dfb0a274b25")
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 166.37 96.52 0)
 		(unit 1)
@@ -7516,96 +7050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c20f737-2cf4-4448-916a-66caf2c1a8b3")
-		(property "Reference" "R36"
-			(at 57.15 43.688 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 45.212 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "448a2ff9-5f41-4d62-a51c-d4da6138c292")
-		)
-		(pin "2"
-			(uuid "09652896-45a6-4156-acda-fcf27bc11bf4")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 242.57 25.4 0)
 		(unit 1)
@@ -7780,7 +7224,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 57.15 67.31 90)
+		(at 57.15 148.59 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7788,9 +7232,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4685495f-6338-4c72-8fa8-75111bc0072e")
-		(property "Reference" "R41"
-			(at 57.15 69.088 90)
+		(uuid "3ead1294-5883-401b-874a-c133f13a9ef4")
+		(property "Reference" "R35"
+			(at 57.15 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7800,7 +7244,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 57.15 70.612 90)
+			(at 57.15 151.892 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7810,7 +7254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 67.31 0)
+			(at 57.15 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7821,7 +7265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 67.31 0)
+			(at 57.15 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +7276,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 57.15 67.31 0)
+			(at 57.15 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +7287,7 @@
 			)
 		)
 		(property "LCSC" "C2907294"
-			(at 57.15 67.31 0)
+			(at 57.15 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,15 +7298,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d94621f1-2209-4914-a8ea-b596fd6a31ce")
+			(uuid "668a1970-c2c0-4fe3-97db-e6b74c51de4d")
 		)
 		(pin "2"
-			(uuid "fb0b3660-1c91-46b1-9222-6e1936180250")
+			(uuid "f40e0620-c9df-4b25-a3a9-62e24b0eb0f9")
 		)
 		(instances
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R41")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7946,96 +7390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4943cb5f-f841-4777-9e35-0e92491f5c28")
-		(property "Reference" "R46"
-			(at 57.15 140.208 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 141.732 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e4a37bf-e1fe-468d-8a5b-d7f69a3b36bb")
-		)
-		(pin "2"
-			(uuid "14693940-dd9d-4807-bd71-0ff5e8aaa838")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 109.22 0)
 		(mirror y)
@@ -8108,96 +7462,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "567d242f-103f-4d4c-ad81-cf5281c3d289")
-		(property "Reference" "R38"
-			(at 57.15 53.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 55.372 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "786705c2-da37-49af-a14c-c8a9429a91b5")
-		)
-		(pin "2"
-			(uuid "15669882-1f08-4a01-a1ec-ea481eee1bb5")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8564,6 +7828,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 143.51 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "643e9505-4e2e-4bac-81a4-e1e78a6c9e57")
+		(property "Reference" "R43"
+			(at 57.15 141.732 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 140.208 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9127d72f-ef85-49bf-9fd7-eaf909379973")
+		)
+		(pin "2"
+			(uuid "dc87a949-682c-4edc-9806-ffef83345725")
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 44.45 170.18 0)
 		(unit 1)
@@ -8635,96 +7990,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f15ea17-99b9-4488-8b8a-4309c9fcf9a2")
-		(property "Reference" "R37"
-			(at 57.15 48.768 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 50.292 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2dac5a7d-391f-4071-8539-d5a067ea16ca")
-		)
-		(pin "2"
-			(uuid "2840d075-14ae-4c1e-88c4-1085c801a062")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9501,6 +8766,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87c71a94-17f5-4b63-815e-9ade1f50b44d")
+		(property "Reference" "R40"
+			(at 57.15 64.008 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 65.532 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7eb332a1-4593-4375-91de-28391c2dab5d")
+		)
+		(pin "2"
+			(uuid "db97c98d-8cbb-4d32-baab-ff76e2c1b728")
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 161.29 0)
 		(unit 1)
@@ -10205,96 +9560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d7053fd-6578-4014-a27a-44677d37af90")
-		(property "Reference" "R43"
-			(at 57.15 124.968 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 126.492 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "943a69dd-7a4e-4e8b-a13d-ace670f20cf6")
-		)
-		(pin "2"
-			(uuid "bda997a8-041a-4fba-839a-967eedf9f827")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 41.91 104.14 0)
 		(unit 1)
@@ -10366,173 +9631,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 128.27 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac5945b5-dca0-44ca-9c18-52e59867e7fb")
-		(property "Reference" "R44"
-			(at 57.15 130.048 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 131.572 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4449257-90d9-43ab-aaea-5ee2019b39db")
-		)
-		(pin "2"
-			(uuid "a3fd1268-c198-4faf-880f-e319b00c2261")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 199.39 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad380723-8540-4562-ad04-060ae4408c19")
-		(property "Reference" "#PWR070"
-			(at 199.39 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V_SW"
-			(at 199.39 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 199.39 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15438b38-2af3-49ed-9014-7a9e8ea61269")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -10863,8 +9961,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 80.01 0)
+		(lib_id "Device:R_Small")
+		(at 57.15 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10872,30 +9970,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b2b3649e-78d0-4577-902b-b8b77b06e246")
-		(property "Reference" "#PWR071"
-			(at 199.39 86.36 0)
-			(hide yes)
+		(uuid "b2c18910-1615-4b84-953c-61683e7c5d70")
+		(property "Reference" "R42"
+			(at 57.15 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 199.39 83.566 0)
+		(property "Value" "100"
+			(at 57.15 75.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 199.39 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10906,7 +10003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 80.01 0)
+			(at 57.15 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,8 +10013,19 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 80.01 0)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,12 +10036,105 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc55d0b6-9295-42a1-8dc5-1c224ca94033")
+			(uuid "97f35e76-1e49-41a1-8939-5bc253d3c2bf")
+		)
+		(pin "2"
+			(uuid "f9db1143-3b6c-4600-86d5-cb315c834d79")
 		)
 		(instances
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "#PWR071")
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3332ce3-e089-4fcf-aa03-13253497455d")
+		(property "Reference" "R41"
+			(at 57.15 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 70.612 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9782051-508c-4241-8762-3e27be8753f7")
+		)
+		(pin "2"
+			(uuid "f64ac1b7-18ef-4dd4-9d9d-4849e8b98584")
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -11346,102 +10547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 204.47 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0986f93-93fe-4633-9449-393f754f007c")
-		(property "Reference" "J21"
-			(at 207.01 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED11"
-			(at 207.01 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CONN-TH_3P-P5.08_WJ2EDGRC-5.08-3P"
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C8377"
-			(at 204.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "630b0aec-ee66-495c-bd7b-5d7e36df0efc")
-		)
-		(pin "1"
-			(uuid "e4330617-38cd-4f26-ba36-e8e549f7c9a5")
-		)
-		(pin "2"
-			(uuid "86876f3a-2531-4d6e-9bed-bf7aea4c68a6")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 101.6 121.92 0)
 		(unit 1)
@@ -11678,96 +10783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 62.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d5e6aeca-6f33-447f-a134-b02680911e63")
-		(property "Reference" "R40"
-			(at 57.15 64.008 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 65.532 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb5f9dbb-432d-4dbf-9ba2-94495a8bd4cf")
-		)
-		(pin "2"
-			(uuid "20aeb058-c28a-44d8-9c3b-c9149ccefda0")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 97.79 0)
 		(unit 1)
@@ -11839,6 +10854,96 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9176c0e-47be-424b-a91f-d34e36585cd9")
+		(property "Reference" "R39"
+			(at 57.15 58.928 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 60.452 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03a679b0-6fc8-47b2-a411-9772d24fa5a3")
+		)
+		(pin "2"
+			(uuid "f514340c-1a35-424e-85a5-3f1eeec64186")
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -11932,6 +11037,188 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 138.43 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc010e94-37ed-4be7-9773-f9773ef1710d")
+		(property "Reference" "R44"
+			(at 57.15 136.652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 135.128 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c92635f-41da-476a-b6ac-d55c49a88a4f")
+		)
+		(pin "2"
+			(uuid "ef796b26-fa4d-4efd-9b4b-0d7fda86752a")
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e01abf39-a6d4-4d86-bbbc-676dab3f5ba4")
+		(property "Reference" "R37"
+			(at 57.15 160.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 57.15 162.052 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2907294"
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb352ac-acf4-4e37-8f92-2600d6ce58b9")
+		)
+		(pin "2"
+			(uuid "3dc0d052-2ff2-4405-87c6-bdf0904fec4c")
+		)
+		(instances
+			(project "LEDController"
+				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -12170,7 +11457,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 57.15 72.39 90)
+		(at 57.15 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12178,9 +11465,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e9aeb81b-d1b6-4b18-bef7-21b5467ecc2e")
-		(property "Reference" "R42"
-			(at 57.15 74.168 90)
+		(uuid "e98f25c1-4dea-40f7-bbf0-6423541e8f58")
+		(property "Reference" "R36"
+			(at 57.15 155.448 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12190,7 +11477,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 57.15 75.692 90)
+			(at 57.15 156.972 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12200,7 +11487,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 72.39 0)
+			(at 57.15 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12211,7 +11498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 72.39 0)
+			(at 57.15 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12222,7 +11509,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 57.15 72.39 0)
+			(at 57.15 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12233,7 +11520,7 @@
 			)
 		)
 		(property "LCSC" "C2907294"
-			(at 57.15 72.39 0)
+			(at 57.15 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12244,15 +11531,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c2f5f659-de18-4c4c-bdb5-cef5a3d4f438")
+			(uuid "27c3a0c9-f3c8-4440-b094-574f67ead2d8")
 		)
 		(pin "2"
-			(uuid "ceba6e02-f008-40b5-8133-e362e0ef2910")
+			(uuid "6731de5c-cc28-45a4-abdc-35449d08ed95")
 		)
 		(instances
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R42")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -12490,96 +11777,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 57.15 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef25e368-a066-43f0-8f16-d1cc9b185606")
-		(property "Reference" "R39"
-			(at 57.15 58.928 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 57.15 60.452 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 57.15 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 57.15 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2907294"
-			(at 57.15 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4433915f-9c9a-4ce5-9dde-449899c3dc51")
-		)
-		(pin "2"
-			(uuid "01d8fb43-a698-4cc8-a0df-3ec7a2bd11f7")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 242.57 50.8 0)
 		(unit 1)
@@ -12670,83 +11867,6 @@
 			(project "LEDController"
 				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 237.49 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f653f735-ad15-4ab3-a79f-31cebad40144")
-		(property "Reference" "#PWR072"
-			(at 237.49 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V_SW"
-			(at 237.49 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 237.49 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55d688ec-5387-415e-bb4b-0b161951f866")
-		)
-		(instances
-			(project "LEDController"
-				(path "/4e4f96d2-86d5-4a03-8de9-74109a01887a/302c9eb6-276b-4833-8e41-ef3ebbdd2f78"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
