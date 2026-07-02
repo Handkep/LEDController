@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|109500000|88701500|7fca5be3-302c-40f4-8b7e-b7a74d1f811f|b098a412-b3c7-41db-9684-6adc8be8a4f0",
-          ""
-        ],
-        [
           "courtyards_overlap|128791000|76045000|8f69daba-37cf-4100-a653-0a5c025b4b62|cbd2bb07-68fc-4c45-bd28-8a2fe9eddfde",
           ""
         ],
@@ -107,22 +103,6 @@
         ],
         [
           "shorting_items|92000000|66373300|39a397e0-a744-4c0f-864c-f91e507bdc84|4c7e1bc5-fffd-4193-b2fe-f9cde4281945",
-          ""
-        ],
-        [
-          "silk_edge_clearance|109875000|99000000|64fe9343-d84f-458e-8f3a-7205ee105d6d|3fc07173-0f30-43da-aaff-aa60b4d7f3aa",
-          ""
-        ],
-        [
-          "silk_edge_clearance|110115000|99000000|64fe9343-d84f-458e-8f3a-7205ee105d6d|5a69462c-44a7-4b91-b914-8528f3196df1",
-          ""
-        ],
-        [
-          "silk_edge_clearance|119799600|103505200|64fe9343-d84f-458e-8f3a-7205ee105d6d|e039edf6-e560-47cb-b8dd-6df402d6db06",
-          ""
-        ],
-        [
-          "silk_edge_clearance|125355000|99000000|64fe9343-d84f-458e-8f3a-7205ee105d6d|d0f224a0-00ca-440f-9f7c-3d1f1ede2d35",
           ""
         ],
         [

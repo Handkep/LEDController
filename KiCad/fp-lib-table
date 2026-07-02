@@ -6,4 +6,5 @@
 	(lib (name "jlc_footprints") (type "KiCad") (uri "/home/paulus/Documents/Projekte/jlc_tmp/jlc_footprints.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "/home/paulus/Documents/Projekte/jlc_tmp/tmo/Library.pretty") (options "") (descr ""))
 	(lib (name "jlc_footprints") (type "KiCad") (uri "/home/paulus/Documents/Projekte/jlc_tmp/jlc_footprints.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
 )
