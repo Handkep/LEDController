@@ -78,10 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|128791000|76045000|8f69daba-37cf-4100-a653-0a5c025b4b62|cbd2bb07-68fc-4c45-bd28-8a2fe9eddfde",
-          ""
-        ],
-        [
           "hole_clearance|92000000|61073300|469d5f61-f8a0-470f-b361-2ecbae0e79f0|748f8799-3dc8-4e32-b51f-b6e0d3e5a2db",
           ""
         ],
@@ -646,13 +642,13 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -682,7 +678,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -706,19 +702,19 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
@@ -786,7 +782,7 @@
         "uuid": "4e4f96d2-86d5-4a03-8de9-74109a01887a"
       }
     ],
-    "used_designators": "R35-44",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
