@@ -1659,7 +1659,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V_SW"
+		(property "Value" "VCC_SW"
 			(at 71.12 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,7 +1813,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "VCC_IN"
 			(at 41.91 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
