@@ -4236,6 +4236,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TVS diode fehlt noch"
+		(exclude_from_sim no)
+		(at 145.796 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61b9a7ca-3af2-4ec3-8c30-ef48f9f837f8")
+	)
 	(text "https://chatgpt.com/c/6a50c7b2-c890-83eb-8b19-35a051685d37"
 		(exclude_from_sim no)
 		(at 152.654 112.776 0)
@@ -4488,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 152.4 96.52)
+			(xy 143.51 96.52) (xy 152.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8428,7 +8438,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 149.86 96.52 0)
+		(at 143.51 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8438,7 +8448,7 @@
 		(dnp no)
 		(uuid "3da50e7c-abd8-4cb5-9b78-05231c5827d4")
 		(property "Reference" "#PWR09"
-			(at 149.86 100.33 0)
+			(at 143.51 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +8459,7 @@
 			)
 		)
 		(property "Value" "VCC_IN"
-			(at 149.86 92.71 0)
+			(at 143.51 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8459,7 +8469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 96.52 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8470,7 +8480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 96.52 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8481,7 +8491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 149.86 96.52 0)
+			(at 143.51 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
