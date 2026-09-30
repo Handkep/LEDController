@@ -2591,6 +2591,16 @@
 		)
 		(uuid "8d116ed3-5df6-4110-8dda-dc5e423068a8")
 	)
+	(text "komponente neu raussuchen"
+		(exclude_from_sim no)
+		(at 257.81 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97f1ee3d-0210-440c-b0ff-5738e0318bf5")
+	)
 	(text "(100k*0.596V)/(3.33V-0.596V)"
 		(exclude_from_sim no)
 		(at 241.3 159.766 0)
