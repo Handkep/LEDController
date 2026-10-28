@@ -2581,6 +2581,16 @@
 		)
 		(uuid "ba105bb5-ce1a-48b9-adbd-1c218b98f7a2")
 	)
+	(text "TODO:\ncheck if everywhere expensive 10u needed"
+		(exclude_from_sim no)
+		(at 51.816 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "182479e7-c9c5-4609-95c8-efc162c0ce55")
+	)
 	(text "(100k*0.596V)/(5V-0.596V)= 13.53K"
 		(exclude_from_sim no)
 		(at 236.474 111.506 0)
@@ -4959,7 +4969,7 @@
 			(justify left bottom)
 		)
 		(uuid "28454557-4623-4cc8-9d66-a6fe00411d1f")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at -113.03 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +5004,7 @@
 			(justify left bottom)
 		)
 		(uuid "6b0f48a1-e5fa-4d80-9c38-0b32cadd6612")
-		(property "Netclass" ""
+		(property "Net Class" ""
 			(at -119.38 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6561,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2907015"
+		(property "LCSC" "C2907309"
 			(at 241.3 147.32 0)
 			(hide yes)
 			(show_name no)
