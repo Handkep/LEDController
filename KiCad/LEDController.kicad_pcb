@@ -21076,7 +21076,7 @@
 			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.208333)
-			(net "GPIO.6")
+			(net "GPIO.18")
 			(pintype "passive")
 			(uuid "0e934035-6e90-420b-a4c3-a2d79244f707")
 		)
